@@ -1,4 +1,4 @@
-#### DSC-DYPCOE Web Development 🌐
+# DSC-DYPCOE Web Development 🌐
 
 1. Introduction to Web Development
 
