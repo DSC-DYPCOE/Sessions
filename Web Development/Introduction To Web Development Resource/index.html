@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/00ddca2673.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="heading">
+        <span class="name">My Blog</span>
+        <button id="theme"><i class="far fa-sun"></i></button>
+    </div>
+    <div class="blog-content">
+        <h1 class="title">Introduction to Web Development</h1>
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+            class="image">
+        <a href="https://www.linkedin.com/in/abhishek-ghadge/"></a>
+        <h3 class="author">Abhishek Ghadge</h3></a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor ipsum vel ultrices scelerisque.
+            Suspendisse in dapibus diam. Duis finibus eros et diam malesuada ornare. Nullam pretium elementum tempus. Ut
+            eu est viverra, feugiat quam sit amet, vehicula urna. Donec quis facilisis orci. Nulla ac odio ultricies,
+            faucibus libero eget, tincidunt lacus. Sed at ultricies felis. Duis id suscipit enim. Morbi quam neque,
+            vehicula eget sollicitudin et, ultrices accumsan turpis. Nunc porta feugiat orci eleifend eleifend. Cras
+            vehicula et purus ut accumsan. Pellentesque consectetur nulla sed est ultricies maximus. Quisque congue sem
+            nec porttitor tempor. Pellentesque placerat neque finibus cursus tincidunt. Nullam dictum nulla vel quam
+            aliquam iaculis. Ut ut tincidunt nulla. Orci varius natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Aenean hendrerit commodo mauris, vel fringilla massa suscipit vitae. Morbi consequat
+            magna et mollis molestie. Quisque suscipit sem et ex auctor, vel cursus arcu ultricies. Suspendisse viverra
+            dapibus sem nec faucibus. Vestibulum quis sem lacinia, dapibus massa a, malesuada augue. Fusce tellus metus,
+            convallis eget finibus id, tempor eu felis. Duis at venenatis ipsum. Nunc convallis, nulla eu dignissim
+            imperdiet, eros lectus varius purus, ac faucibus sem ipsum pellentesque massa. Aenean massa erat, facilisis
+            nec dolor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor ipsum vel ultrices scelerisque.
+            Suspendisse in dapibus diam. Duis finibus eros et diam malesuada ornare. Nullam pretium elementum tempus. Ut
+            eu est viverra, feugiat quam sit amet, vehicula urna. Donec quis facilisis orci. Nulla ac odio ultricies,
+            faucibus libero eget, tincidunt lacus. Sed at ultricies felis. Duis id suscipit enim. Morbi quam neque,
+            vehicula eget sollicitudin et, ultrices accumsan turpis. Nunc porta feugiat orci eleifend eleifend. Cras
+            vehicula et purus ut accumsan. Pellentesque consectetur nulla sed est ultricies maximus. Quisque congue sem
+            nec porttitor tempor. Pellentesque placerat neque finibus cursus tincidunt. Nullam dictum nulla vel quam
+            aliquam iaculis. Ut ut tincidunt nulla. Orci varius natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Aenean hendrerit commodo mauris, vel fringilla massa suscipit vitae. Morbi consequat
+            magna et mollis molestie. Quisque suscipit sem et ex auctor, vel cursus arcu ultricies. Suspendisse viverra
+            dapibus sem nec faucibus. Vestibulum quis sem lacinia, dapibus massa a, malesuada augue. Fusce tellus metus,
+            convallis eget finibus id, tempor eu felis. Duis at venenatis ipsum. Nunc convallis, nulla eu dignissim
+            imperdiet, eros lectus varius purus, ac faucibus sem ipsum pellentesque massa. Aenean massa erat, facilisis
+            nec dolor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor ipsum vel ultrices scelerisque.
+            Suspendisse in dapibus diam. Duis finibus eros et diam malesuada ornare. Nullam pretium elementum tempus. Ut
+            eu est viverra, feugiat quam sit amet, vehicula urna. Donec quis facilisis orci. Nulla ac odio ultricies,
+            faucibus libero eget, tincidunt lacus. Sed at ultricies felis. Duis id suscipit enim. Morbi quam neque,
+            vehicula eget sollicitudin et, ultrices accumsan turpis. Nunc porta feugiat orci eleifend eleifend. Cras
+            vehicula et purus ut accumsan. Pellentesque consectetur nulla sed est ultricies maximus. Quisque congue sem
+            nec porttitor tempor. Pellentesque placerat neque finibus cursus tincidunt. Nullam dictum nulla vel quam
+            aliquam iaculis. Ut ut tincidunt nulla. Orci varius natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus. Aenean hendrerit commodo mauris, vel fringilla massa suscipit vitae. Morbi consequat
+            magna et mollis molestie. Quisque suscipit sem et ex auctor, vel cursus arcu ultricies. Suspendisse viverra
+            dapibus sem nec faucibus. Vestibulum quis sem lacinia, dapibus massa a, malesuada augue. Fusce tellus metus,
+            convallis eget finibus id, tempor eu felis. Duis at venenatis ipsum. Nunc convallis, nulla eu dignissim
+            imperdiet, eros lectus varius purus, ac faucibus sem ipsum pellentesque massa. Aenean massa erat, facilisis
+            nec dolor.</p>
+    </div>
+    <div class="footer">
+        <h3>Subscribe To My Newsletter</h3>
+        <input type="email" placeholder="Enter Your Email" name="email">
+        <button class="subscribe">Subscribe</button>
+        <p class="signature">&copy;Abhishek Ghadge</p>
+    </div>
+    <script>
+        toggleButton = document.querySelector('#theme');
+        themeChange = document.querySelector('.themeChange');
+        heading = document.getElementsByClassName('heading')[0];
+
+        toggleButton.addEventListener('click', function () {
+            document.body.classList.toggle('dark');
+            heading.classList.toggle('dark2');
+            toggleButton.classList.toggle('dark');
+        });
+    </script>
+</body>
+
+</html>
